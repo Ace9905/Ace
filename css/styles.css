@@ -4,17 +4,29 @@ body{
   margin: 0;
 
 }
+a{
+  text-decoration: none;
+  margin: 30px 12px;
+}
+a:hover{
+  color: gold;
+}
 h1{
-  color:#af0404;
+  color:#1526a5f2;
   width:10%;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 70px;
+}
+h2{
+  color: black;
+  padding-top: 0;
 }
 h4{
+  color: black;
   margin-bottom: 5px;
 }
 p{
-  color: #ff0000;
+  color: #1526a5f2;
   weight: normal;
   width: 30%;
   margin:auto;
@@ -33,21 +45,21 @@ hr{
 }
 
 img{
-  background-color:#1A1A1D;
 }
 .greetings{
   margin-bottom: 60px;
 }
 .top{
-  background-color:Black;
+  background-color: #d8ece6;
   position: relative;
   padding-top: 100px;
-  padding-bottom: 100px;
 
 }
 .ace-one{
   position: absolute;
   right: 500px;
+  padding-top:0;
+  transform: rotate(0.5turn);
 
 }
 .ace-two{
@@ -56,10 +68,24 @@ img{
 
 }
 
+.hubby button {
+  background-color: blue;
+  color: white;
+  padding:1em 2em;
+  border-radius: 15px;
+  border:none;
+  outline:none;
+  cursor: pointer;
+
+}
+.hubby button:hover{
+  color: gold;
+}
+
 .middle{
-  background-color: Black;
+  background-color: #d8ece6;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 
 
 }
@@ -68,13 +94,16 @@ img{
   border-radius: 100%;
   margin-top: 0;
 }
-.para{color: #ff0000;
+.para{color: #1526a5f2;
 weight: normal;
 width: 60%;
 margin-bottom: 60px;
 line-height: 2;
 text-align: left;
 margin-left: 70px;
+}
+.paragraph{
+  padding-bottom: 50px;
 }
 .skill{
   width: 50%;
@@ -86,6 +115,7 @@ margin-left: 70px;
     float: left;
   }
 .bottom{
-  background-color: #1A1A1D;
+  background-color: #5bd1d7;
+  padding: 50px 0 20px;
 
 }
